@@ -1,0 +1,11 @@
+/////////////////////////
+//      Web Spec     ////
+/////////////////////////
+
+
+node server
+express routing
+connect database
+create api's
+Sketch web design
+design site
