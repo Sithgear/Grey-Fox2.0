@@ -6,6 +6,8 @@
 node server
 express routing
 connect database
+-connected using sithgearDB.js and mongodb
+  *add in code to manipulate data that you collect before using it
 create api's
 Sketch web design
 design site
