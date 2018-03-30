@@ -2,12 +2,14 @@ var mongoose = require('mongoose');
 
 var RecipeSchema = new mongoose.Schema(
   {
+    _recipeID: Schema.Types.ObjectId,
     title: String,
-    ingredients: Array,
-    measurements: Array,
+    ingredients: [],
+    measurements: [],
     foodType: String,
-    cookingDirections: {},
-
+    cookingDirections: { type: String },
+    rating: Number,
+    dateAdded: {type: Date, default: Date.now}
   },
   {
   strict: false
